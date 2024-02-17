@@ -22,12 +22,12 @@ const Navbar = () => {
               <li>Pricing</li>
             </ul>
           </div>
-          <div className="hidden md:flex ">
+          <div className="hidden md:flex">
             <button className="flex items-center bg-transparent gap-2 px-6">
               <img src={lock} alt="lock image" />
               <span className="text-gray-600">Login</span>
             </button>
-            <button className="text-white font-bold px-8 py-4 rounded-md bg-[#20B486]">
+            <button className="text-white font-bold px-6 py-2 rounded-md bg-[#20B486]">
               Sign Up For Free
             </button>
           </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <div
           className={
-            toggle ? "absolute z-10 p-4 w-full bg-white md:hidden" : "hidden"
+            toggle ? "absolute z-10  p-4 w-full h-screen bg-white md:hidden" : "hidden"
           }
         >
           <ul>
