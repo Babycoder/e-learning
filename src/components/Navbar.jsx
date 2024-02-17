@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full h-[80px] border-b">
-        <div className="md:max-w-[1480px] max-w-[600px] w-full h-full m-auto flex justify-between items-center border border-black">
+      <div className="w-full h-[80px] border-b ">
+        <div className="md:max-w-[1480px] max-w-[600px] w-full h-full m-auto flex justify-between items-center">
           <img src={logo} alt="logo image" className="h-[25px]" />
           <div className="">
             <ul className="hidden md:flex gap-4">
@@ -35,10 +35,30 @@ const Navbar = () => {
           <div className="md:hidden" onClick={handleClick}>
             <img src={toggle ? close : hamburgerMenu} alt="menu logo" />
           </div>
-        
-        
         </div>
-        
+
+        <div
+          className={
+            toggle ? "absolute z-10 p-4 w-full bg-white md:hidden" : "hidden"
+          }
+        >
+          <ul>
+            <li className="p-4 hover:bg-gray-100">Home</li>
+            <li className="p-4 hover:bg-gray-100">About</li>
+            <li className="p-4 hover:bg-gray-100">Support</li>
+            <li className="p-4 hover:bg-gray-100">Platform</li>
+            <li className="p-4 hover:bg-gray-100">Pricing</li>
+          </ul>
+          <div className="flex flex-col gap-4 my-4">
+            <button className="flex justify-center border rounded-md py-3 bg-gray-100 gap-2 px-6">
+              <img src={lock} alt="lock image" />
+              <span className="text-gray-600">Login</span>
+            </button>
+            <button className="text-white font-bold px-8 py-3 rounded-md bg-[#20B486]">
+              Sign Up For Free
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );
