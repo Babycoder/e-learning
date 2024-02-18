@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <div
           className={
-            toggle ? "absolute z-10  p-4 w-full h-screen bg-white md:hidden" : "hidden"
+            toggle ? "absolute z-10 p-4 w-full h-screen bg-white md:hidden" : "hidden"
           }
         >
           <ul>
