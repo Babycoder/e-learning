@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
           <form className="max-w-[700px] p-6 shadow-lg rounded-md flex justify-between">
             <input
-              className=" w-[50%] bg-white"
+              className=" w-[50%] bg-white focus:shadow-md focus:outline-none"
               type="text"
               placeholder="What do you want to learn ?"
               onChange={handleChange}
