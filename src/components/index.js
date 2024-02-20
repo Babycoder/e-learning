@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Companies from "./Companies";
 import Courses from "./Courses";
+import Achievement from "./Achievement";
 
 const slickSettings = {
   dots: true,
@@ -41,4 +42,4 @@ const slickSettings = {
   ],
 };
 
-export { Hero, Navbar, Companies, Courses, slickSettings };
+export { Hero, Navbar, Companies, Courses, Achievement, slickSettings };
