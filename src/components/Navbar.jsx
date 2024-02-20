@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="md:max-w-[1480px] max-w-[600px] w-full h-full m-auto flex justify-between items-center">
           <img src={logo} alt="logo image" className="h-[25px]" />
           <div className="">
-            <ul className="hidden md:flex gap-4">
+            <ul className="hidden md:flex gap-10 text-gray-500 font-medium">
               <li>Home</li>
               <li>About</li>
               <li>Support</li>
@@ -42,7 +42,7 @@ const Navbar = () => {
             toggle ? "absolute z-10 p-4 w-full h-screen bg-white md:hidden" : "hidden"
           }
         >
-          <ul>
+          <ul className="text-gray-500 font-medium">
             <li className="p-4 hover:bg-gray-100">Home</li>
             <li className="p-4 hover:bg-gray-100">About</li>
             <li className="p-4 hover:bg-gray-100">Support</li>

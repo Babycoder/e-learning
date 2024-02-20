@@ -20,7 +20,7 @@ const Courses = () => {
 
           <Slider {...settings}>
             {courses.map((course) => {
-              return (<Card key={course.id}/>);
+              return <Card key={course.id} course={course} />;
             })}
           </Slider>
         </div>
