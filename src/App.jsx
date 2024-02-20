@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Navbar, Companies, Courses } from "./components/index";
+import { Hero, Navbar, Companies, Courses, Achievement } from "./components/index";
 import "./App.css";
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
       <Hero />
       <Companies />
       <Courses />
+      <Achievement />
     </>
   );
 };
