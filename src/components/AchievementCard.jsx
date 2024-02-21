@@ -22,7 +22,7 @@ const AchievementCard = ({ achievement }) => {
   return (
     <>
       <div className="flex items-center gap-8">
-        <div className="w-fit rounded-md" style={{ backgroundColor: bgColor }}>
+        <div className="w-fit rounded-md" style={{ background: bgColor }}>
           {selectIcon(achievement.icon)}
         </div>
         <div>
