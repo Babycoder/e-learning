@@ -6,6 +6,8 @@ import Achievement from "./Achievement";
 import AchievementCard from "./AchievementCard";
 import Categories from "./Categories";
 import CategorieCard from "./CategorieCard";
+import Feedback from "./Feedback";
+import FeedbackCard from "./FeedbackCard";
 
 const slickSettings = {
   dots: true,
@@ -54,5 +56,7 @@ export {
   AchievementCard,
   Categories,
   CategorieCard,
+  Feedback,
+  FeedbackCard,
   slickSettings,
 };
