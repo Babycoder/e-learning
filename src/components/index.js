@@ -8,6 +8,7 @@ import Categories from "./Categories";
 import CategorieCard from "./CategorieCard";
 import Feedback from "./Feedback";
 import FeedbackCard from "./FeedbackCard";
+import CTA from "./CTA";
 
 const slickSettings = {
   dots: true,
@@ -58,5 +59,6 @@ export {
   CategorieCard,
   Feedback,
   FeedbackCard,
+  CTA,
   slickSettings,
 };
