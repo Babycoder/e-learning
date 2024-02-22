@@ -8,6 +8,7 @@ import {
   Categories,
   Feedback,
   CTA,
+  Footer,
 } from "./components/index";
 import "./App.css";
 
@@ -22,6 +23,7 @@ const App = () => {
       <Categories />
       <Feedback />
       <CTA />
+      <Footer />
     </>
   );
 };

@@ -8,6 +8,12 @@ const Navbar = () => {
     setToggle(!toggle);
   };
 
+  if (toggle) {
+    document.body.classList.add('no-scroll');
+  } else {
+    document.body.classList.remove('no-scroll');
+  }
+
   return (
     <>
       <div className="w-full h-[80px] border-b ">
@@ -39,7 +45,7 @@ const Navbar = () => {
 
         <div
           className={
-            toggle ? "absolute z-10 p-4 w-full h-screen bg-white md:hidden" : "hidden"
+            toggle ? " absolute z-10 p-4 w-full h-screen bg-white md:hidden" : "hidden"
           }
         >
           <ul className="text-gray-500 font-medium">

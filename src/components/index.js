@@ -9,6 +9,7 @@ import CategorieCard from "./CategorieCard";
 import Feedback from "./Feedback";
 import FeedbackCard from "./FeedbackCard";
 import CTA from "./CTA";
+import Footer from "./Footer";
 
 const slickSettings = {
   dots: true,
@@ -60,5 +61,6 @@ export {
   Feedback,
   FeedbackCard,
   CTA,
+  Footer,
   slickSettings,
 };

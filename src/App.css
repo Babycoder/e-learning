@@ -27,3 +27,6 @@
 .category-card:hover .arrow-icon {
   fill: white;
 }
+.no-scroll {
+  overflow: hidden;
+}
